@@ -1,0 +1,107 @@
+[25-Sep-2021 19:20:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_blog_info() in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\header.php:15
+Stack trace:
+#0 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template.php(770): require_once()
+#1 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template.php(716): load_template('G:\\Meu Drive\\UF...', true, Array)
+#2 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\index.php(1): get_header()
+#4 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template-loader.php(106): include('G:\\Meu Drive\\UF...')
+#5 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-blog-header.php(19) in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\header.php on line 15
+[25-Sep-2021 19:20:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_blog_info() in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\header.php:15
+Stack trace:
+#0 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template.php(770): require_once()
+#1 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template.php(716): load_template('G:\\Meu Drive\\UF...', true, Array)
+#2 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\index.php(1): get_header()
+#4 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template-loader.php(106): include('G:\\Meu Drive\\UF...')
+#5 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-blog-header.php(19) in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\header.php on line 15
+[25-Sep-2021 19:21:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_blog_info() in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\header.php:15
+Stack trace:
+#0 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template.php(770): require_once()
+#1 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template.php(716): load_template('G:\\Meu Drive\\UF...', true, Array)
+#2 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\index.php(1): get_header()
+#4 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template-loader.php(106): include('G:\\Meu Drive\\UF...')
+#5 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-blog-header.php(19) in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\header.php on line 15
+[25-Sep-2021 22:48:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php:9
+Stack trace:
+#0 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template-loader.php(106): include()
+#1 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-blog-header.php(19): require_once('G:\\Meu Drive\\UF...')
+#2 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\index.php(17): require('G:\\Meu Drive\\UF...')
+#3 {main}
+  thrown in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php on line 9
+[25-Sep-2021 22:53:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function the_field(), 1 passed in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php on line 9 and exactly 2 expected in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php:8
+Stack trace:
+#0 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php(9): the_field('chamada1')
+#1 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template-loader.php(106): include('G:\\Meu Drive\\UF...')
+#2 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-blog-header.php(19): require_once('G:\\Meu Drive\\UF...')
+#3 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\index.php(17): require('G:\\Meu Drive\\UF...')
+#4 {main}
+  thrown in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php on line 8
+[25-Sep-2021 22:53:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function the_field(), 1 passed in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php on line 9 and exactly 2 expected in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php:8
+Stack trace:
+#0 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php(9): the_field('chamada1')
+#1 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template-loader.php(106): include('G:\\Meu Drive\\UF...')
+#2 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-blog-header.php(19): require_once('G:\\Meu Drive\\UF...')
+#3 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\index.php(17): require('G:\\Meu Drive\\UF...')
+#4 {main}
+  thrown in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php on line 8
+[25-Sep-2021 22:55:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function the_field(), 1 passed in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php on line 9 and exactly 2 expected in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php:9
+Stack trace:
+#0 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php(9): the_field('chamada1')
+#1 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template-loader.php(106): include('G:\\Meu Drive\\UF...')
+#2 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-blog-header.php(19): require_once('G:\\Meu Drive\\UF...')
+#3 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\index.php(17): require('G:\\Meu Drive\\UF...')
+#4 {main}
+  thrown in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php on line 9
+[27-Sep-2021 13:16:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_field(), 1 passed in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php on line 42 and exactly 2 expected in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php:3
+Stack trace:
+#0 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php(42): get_field('imgCard1_id')
+#1 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template-loader.php(106): include('G:\\Meu Drive\\UF...')
+#2 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-blog-header.php(19): require_once('G:\\Meu Drive\\UF...')
+#3 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\index.php(17): require('G:\\Meu Drive\\UF...')
+#4 {main}
+  thrown in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php on line 3
+[27-Sep-2021 13:17:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_field(), 1 passed in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php on line 42 and exactly 2 expected in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php:3
+Stack trace:
+#0 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php(42): get_field('imgCard1_id')
+#1 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template-loader.php(106): include('G:\\Meu Drive\\UF...')
+#2 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-blog-header.php(19): require_once('G:\\Meu Drive\\UF...')
+#3 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\index.php(17): require('G:\\Meu Drive\\UF...')
+#4 {main}
+  thrown in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php on line 3
+[27-Sep-2021 13:21:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_field(), 1 passed in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php on line 42 and exactly 2 expected in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php:3
+Stack trace:
+#0 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php(42): get_field('imgCard1_id')
+#1 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template-loader.php(106): include('G:\\Meu Drive\\UF...')
+#2 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-blog-header.php(19): require_once('G:\\Meu Drive\\UF...')
+#3 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\index.php(17): require('G:\\Meu Drive\\UF...')
+#4 {main}
+  thrown in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php on line 3
+[27-Sep-2021 13:21:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_field(), 1 passed in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php on line 42 and exactly 2 expected in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php:3
+Stack trace:
+#0 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php(42): get_field('imgCard1_id')
+#1 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template-loader.php(106): include('G:\\Meu Drive\\UF...')
+#2 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-blog-header.php(19): require_once('G:\\Meu Drive\\UF...')
+#3 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\index.php(17): require('G:\\Meu Drive\\UF...')
+#4 {main}
+  thrown in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php on line 3
+[27-Sep-2021 13:23:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_field(), 1 passed in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php on line 42 and exactly 2 expected in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php:3
+Stack trace:
+#0 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-home.php(42): get_field('imgCard1_id')
+#1 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template-loader.php(106): include('G:\\Meu Drive\\UF...')
+#2 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-blog-header.php(19): require_once('G:\\Meu Drive\\UF...')
+#3 G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\index.php(17): require('G:\\Meu Drive\\UF...')
+#4 {main}
+  thrown in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\functions.php on line 3
+[27-Sep-2021 14:29:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-bolos.php on line 25
+[27-Sep-2021 14:29:40 UTC] PHP Stack trace:
+[27-Sep-2021 14:29:40 UTC] PHP   1. {main}() G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\index.php:0
+[27-Sep-2021 14:29:40 UTC] PHP   2. require() G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\index.php:17
+[27-Sep-2021 14:29:40 UTC] PHP   3. require_once() G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-blog-header.php:19
+[27-Sep-2021 14:29:40 UTC] PHP   4. include() G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template-loader.php:106
+[27-Sep-2021 14:31:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-content\themes\docurasdajessinha\page-bolos.php on line 25
+[27-Sep-2021 14:31:07 UTC] PHP Stack trace:
+[27-Sep-2021 14:31:07 UTC] PHP   1. {main}() G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\index.php:0
+[27-Sep-2021 14:31:07 UTC] PHP   2. require() G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\index.php:17
+[27-Sep-2021 14:31:07 UTC] PHP   3. require_once() G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-blog-header.php:19
+[27-Sep-2021 14:31:07 UTC] PHP   4. include() G:\Meu Drive\UFF\IN Junior\Word Press\wordpress-studies\teste4\app\public\wp-includes\template-loader.php:106
