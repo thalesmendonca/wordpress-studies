@@ -15,7 +15,7 @@
 ?>
 
 <header class='header container'>
-    <a href=""><img src="<?= $img_url; ?>/handel.svg" alt="Handel"></a>
+    <a href="/home"><img src="<?= $img_url; ?>/handel.svg" alt="Handel"></a>
     <div class="busca">
         <form action="<?php bloginfo('url');?>/loja/" method="get">
             <input type="text" name="s" id="s" placeholder="Buscar" value="<?php the_search_query(); ?>">
