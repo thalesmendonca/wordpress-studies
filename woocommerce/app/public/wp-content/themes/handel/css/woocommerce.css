@@ -122,3 +122,21 @@
 .woocommerce #payment #place_order:hover {
     background-color: #1188ee !important;
 }
+
+.woocommerce form.checkout_coupon, 
+.woocommerce form.login, 
+.woocommerce form.register {
+    border: none;
+    padding: 0px;
+    margin: 10px 0;
+    max-width: 600px;
+}
+
+/*PagSeguro*/
+.woocommerce #pagseguro-payment-form {
+    border: none;
+}
+
+.woocommerce #payment div.payment_box ::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, .4);
+}
