@@ -37,4 +37,5 @@ add_filter('body_class', 'remove_some_body_class');
 <?php
     include(get_template_directory() . "/inc/user-custom-menu.php");
     include(get_template_directory() . "/inc/product-list.php");
+    include(get_template_directory() . "/inc/checkout-customizado.php");
 ?>
